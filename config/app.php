@@ -225,10 +225,7 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
-        'Module' => Nwidart\Modules\Facades\Module::class,
-
-        'Form' => Collective\Html\FormFacade::class,
-        'HTML' => Collective\Html\HtmlFacade::class,
+        'Module' => Nwidart\Modules\Facades\Module::class
     ],
 
 ];

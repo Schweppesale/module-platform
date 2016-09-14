@@ -28,18 +28,17 @@ $app = new Illuminate\Foundation\Application(
 
 $app->singleton(
     Illuminate\Contracts\Http\Kernel::class,
-    Schweppesale\Components\Http\Laravel\Kernel::class
+    Schweppesale\Module\Core\Http\Laravel\Kernel::class
 );
 
 $app->singleton(
     Illuminate\Contracts\Console\Kernel::class,
-    Schweppesale\Components\Console\Laravel\Kernel::class
+    Schweppesale\Module\Core\Console\Laravel\Kernel::class
 );
 
 $app->singleton(
     Illuminate\Contracts\Debug\ExceptionHandler::class,
-//    App\Exceptions\Handler::class
-    Schweppesale\Components\Exceptions\Laravel\Handler::class
+    Schweppesale\Module\Core\Exceptions\Laravel\Handler::class
 );
 
 /*
