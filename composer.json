@@ -22,9 +22,9 @@
         "php": ">=7.0.0",
         "laravel/framework": "~5.3.0",
         "nwidart/laravel-modules": "dev-master",
-
         "schweppesale/components": "dev-master",
-        "schweppesale/module-access": "dev-master"
+        "schweppesale/module-access": "dev-master",
+        "laravelcollective/html": "^5.3"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
