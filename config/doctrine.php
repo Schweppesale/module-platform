@@ -26,16 +26,16 @@ return [
             'meta'       => env('DOCTRINE_METADATA', 'annotations'),
             'connection' => env('DB_CONNECTION', 'mysql'),
             'namespaces' => [
-                'App', 'Schweppesale'
+                'Modules',
             ],
             'paths'      => [
-                base_path('app')
+                base_path('modules'),
             ],
             'repository' => Doctrine\ORM\EntityRepository::class,
             'proxies'    => [
                 'namespace'     => false,
                 'path'          => storage_path('proxies'),
-                'auto_generate' => env('DOCTRINE_PROXY_AUTOGENERATE', true)
+                'auto_generate' => env('DOCTRINE_PROXY_AUTOGENERATE', false)
             ],
             /*
             |--------------------------------------------------------------------------
