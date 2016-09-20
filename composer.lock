@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "cc45ba05c3001770c531000bffbef179",
-    "content-hash": "1e9dda48cd7d881a9b100e845f438f6f",
+    "hash": "01280b7464e4dd2383f50a44abfd5ab6",
+    "content-hash": "1ec190d78bcacaa9b3988d6377d637aa",
     "packages": [
         {
             "name": "andrewsville/php-token-reflection",
@@ -2000,22 +2000,30 @@
         },
         {
             "name": "psr/log",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/log.git",
-                "reference": "fe0936ee26643249e916849d48e3a51d5f5e278b"
+                "reference": "5277094ed527a1c4477177d102fe4c53551953e0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/log/zipball/fe0936ee26643249e916849d48e3a51d5f5e278b",
-                "reference": "fe0936ee26643249e916849d48e3a51d5f5e278b",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/5277094ed527a1c4477177d102fe4c53551953e0",
+                "reference": "5277094ed527a1c4477177d102fe4c53551953e0",
                 "shasum": ""
             },
+            "require": {
+                "php": ">=5.3.0"
+            },
             "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
             "autoload": {
-                "psr-0": {
-                    "Psr\\Log\\": ""
+                "psr-4": {
+                    "Psr\\Log\\": "Psr/Log/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -2029,12 +2037,13 @@
                 }
             ],
             "description": "Common interface for logging libraries",
+            "homepage": "https://github.com/php-fig/log",
             "keywords": [
                 "log",
                 "psr",
                 "psr-3"
             ],
-            "time": "2012-12-21 11:40:51"
+            "time": "2016-09-19 16:02:08"
         },
         {
             "name": "psy/psysh",
@@ -2194,7 +2203,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/schweppesale/module-access",
-                "reference": "d11719d9cbebd1ded76889befb9b604e72eafccb"
+                "reference": "b915cfb8f2f28edd28652d00bd589b632e933ea3"
             },
             "require": {
                 "idr0id/papper": "~1.1.2",
@@ -2232,7 +2241,7 @@
                     "email": "tripij1@gmail.com"
                 }
             ],
-            "time": "2016-09-17 10:57:00"
+            "time": "2016-09-20 01:29:20"
         },
         {
             "name": "schweppesale/module-core",
@@ -2240,7 +2249,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/schweppesale/module-core",
-                "reference": "4461df99e0bfce3f052d60c5c3aed4cf6f42bf66"
+                "reference": "a255e9f58f6d1bf4e267cada70dd7efc5ca76098"
             },
             "type": "library",
             "autoload": {
@@ -2254,7 +2263,7 @@
                     "email": "tripij1@gmail.com"
                 }
             ],
-            "time": "2016-09-17 10:31:00"
+            "time": "2016-09-20 01:29:14"
         },
         {
             "name": "swiftmailer/swiftmailer",
