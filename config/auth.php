@@ -66,8 +66,8 @@ return [
 
     'providers' => [
         'users' => [
-            'driver' => 'eloquent',
-            'model' => App\User::class,
+            'driver' => 'doctrine',
+            'model' => \Schweppesale\Module\Access\Domain\Entities\User::class,
         ],
 
         // 'users' => [

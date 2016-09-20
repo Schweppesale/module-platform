@@ -64,10 +64,10 @@ class Permission extends \Schweppesale\Module\Access\Domain\Entities\Permission 
     public function __sleep()
     {
         if ($this->__isInitialized__) {
-            return ['__isInitialized__', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\Permission' . "\0" . 'createdAt', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\Permission' . "\0" . 'dependencies', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\Permission' . "\0" . 'displayName', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\Permission' . "\0" . 'id', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\Permission' . "\0" . 'name', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\Permission' . "\0" . 'group', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\Permission' . "\0" . 'sort', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\Permission' . "\0" . 'system', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\Permission' . "\0" . 'updatedAt'];
+            return ['__isInitialized__', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\Permission' . "\0" . 'createdAt', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\Permission' . "\0" . 'dependencies', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\Permission' . "\0" . 'displayName', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\Permission' . "\0" . 'group', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\Permission' . "\0" . 'id', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\Permission' . "\0" . 'name', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\Permission' . "\0" . 'sort', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\Permission' . "\0" . 'system', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\Permission' . "\0" . 'updatedAt'];
         }
 
-        return ['__isInitialized__', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\Permission' . "\0" . 'createdAt', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\Permission' . "\0" . 'dependencies', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\Permission' . "\0" . 'displayName', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\Permission' . "\0" . 'id', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\Permission' . "\0" . 'name', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\Permission' . "\0" . 'group', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\Permission' . "\0" . 'sort', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\Permission' . "\0" . 'system', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\Permission' . "\0" . 'updatedAt'];
+        return ['__isInitialized__', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\Permission' . "\0" . 'createdAt', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\Permission' . "\0" . 'dependencies', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\Permission' . "\0" . 'displayName', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\Permission' . "\0" . 'group', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\Permission' . "\0" . 'id', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\Permission' . "\0" . 'name', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\Permission' . "\0" . 'sort', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\Permission' . "\0" . 'system', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\Permission' . "\0" . 'updatedAt'];
     }
 
     /**
@@ -176,6 +176,17 @@ class Permission extends \Schweppesale\Module\Access\Domain\Entities\Permission 
     /**
      * {@inheritDoc}
      */
+    public function addDependency(\Schweppesale\Module\Access\Domain\Entities\Permission $permission)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'addDependency', [$permission]);
+
+        return parent::addDependency($permission);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
     public function getCreatedAt()
     {
 
@@ -198,23 +209,23 @@ class Permission extends \Schweppesale\Module\Access\Domain\Entities\Permission 
     /**
      * {@inheritDoc}
      */
-    public function setDependencies(array $dependencies)
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setDependencies', [$dependencies]);
-
-        return parent::setDependencies($dependencies);
-    }
-
-    /**
-     * {@inheritDoc}
-     */
     public function getDisplayName()
     {
 
         $this->__initializer__ && $this->__initializer__->__invoke($this, 'getDisplayName', []);
 
         return parent::getDisplayName();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getGroup()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getGroup', []);
+
+        return parent::getGroup();
     }
 
     /**
@@ -246,34 +257,12 @@ class Permission extends \Schweppesale\Module\Access\Domain\Entities\Permission 
     /**
      * {@inheritDoc}
      */
-    public function getGroup()
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getGroup', []);
-
-        return parent::getGroup();
-    }
-
-    /**
-     * {@inheritDoc}
-     */
     public function getSort()
     {
 
         $this->__initializer__ && $this->__initializer__->__invoke($this, 'getSort', []);
 
         return parent::getSort();
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function setSort($sort)
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setSort', [$sort]);
-
-        return parent::setSort($sort);
     }
 
     /**
@@ -301,7 +290,29 @@ class Permission extends \Schweppesale\Module\Access\Domain\Entities\Permission 
     /**
      * {@inheritDoc}
      */
-    public function setSystem($system)
+    public function setDependencies(array $dependencies)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setDependencies', [$dependencies]);
+
+        return parent::setDependencies($dependencies);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setSort($sort)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setSort', [$sort]);
+
+        return parent::setSort($sort);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setSystem(bool $system)
     {
 
         $this->__initializer__ && $this->__initializer__->__invoke($this, 'setSystem', [$system]);

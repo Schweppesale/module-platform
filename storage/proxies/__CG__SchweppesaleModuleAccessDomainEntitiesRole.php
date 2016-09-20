@@ -64,10 +64,10 @@ class Role extends \Schweppesale\Module\Access\Domain\Entities\Role implements \
     public function __sleep()
     {
         if ($this->__isInitialized__) {
-            return ['__isInitialized__', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\Role' . "\0" . 'createdAt', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\Role' . "\0" . 'id', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\Role' . "\0" . 'name', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\Role' . "\0" . 'permissions', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\Role' . "\0" . 'sort', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\Role' . "\0" . 'updatedAt', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\Role' . "\0" . 'users'];
+            return ['__isInitialized__', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\Role' . "\0" . 'createdAt', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\Role' . "\0" . 'id', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\Role' . "\0" . 'name', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\Role' . "\0" . 'permissions', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\Role' . "\0" . 'sort', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\Role' . "\0" . 'updatedAt'];
         }
 
-        return ['__isInitialized__', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\Role' . "\0" . 'createdAt', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\Role' . "\0" . 'id', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\Role' . "\0" . 'name', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\Role' . "\0" . 'permissions', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\Role' . "\0" . 'sort', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\Role' . "\0" . 'updatedAt', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\Role' . "\0" . 'users'];
+        return ['__isInitialized__', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\Role' . "\0" . 'createdAt', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\Role' . "\0" . 'id', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\Role' . "\0" . 'name', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\Role' . "\0" . 'permissions', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\Role' . "\0" . 'sort', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\Role' . "\0" . 'updatedAt'];
     }
 
     /**
@@ -176,7 +176,29 @@ class Role extends \Schweppesale\Module\Access\Domain\Entities\Role implements \
     /**
      * {@inheritDoc}
      */
-    public function getCreatedAt()
+    public function addPermission(\Schweppesale\Module\Access\Domain\Entities\Permission $permission): \Schweppesale\Module\Access\Domain\Entities\Role
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'addPermission', [$permission]);
+
+        return parent::addPermission($permission);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function can($permission): bool
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'can', [$permission]);
+
+        return parent::can($permission);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getCreatedAt(): \DateTime
     {
 
         $this->__initializer__ && $this->__initializer__->__invoke($this, 'getCreatedAt', []);
@@ -187,12 +209,8 @@ class Role extends \Schweppesale\Module\Access\Domain\Entities\Role implements \
     /**
      * {@inheritDoc}
      */
-    public function getId()
+    public function getId(): int
     {
-        if ($this->__isInitialized__ === false) {
-            return (int)  parent::getId();
-        }
-
 
         $this->__initializer__ && $this->__initializer__->__invoke($this, 'getId', []);
 
@@ -202,23 +220,12 @@ class Role extends \Schweppesale\Module\Access\Domain\Entities\Role implements \
     /**
      * {@inheritDoc}
      */
-    public function getName()
+    public function getName(): string
     {
 
         $this->__initializer__ && $this->__initializer__->__invoke($this, 'getName', []);
 
         return parent::getName();
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function setName($name)
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setName', [$name]);
-
-        return parent::setName($name);
     }
 
     /**
@@ -235,18 +242,7 @@ class Role extends \Schweppesale\Module\Access\Domain\Entities\Role implements \
     /**
      * {@inheritDoc}
      */
-    public function setPermissions(array $permissions)
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setPermissions', [$permissions]);
-
-        return parent::setPermissions($permissions);
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function getSort()
+    public function getSort(): int
     {
 
         $this->__initializer__ && $this->__initializer__->__invoke($this, 'getSort', []);
@@ -257,18 +253,7 @@ class Role extends \Schweppesale\Module\Access\Domain\Entities\Role implements \
     /**
      * {@inheritDoc}
      */
-    public function setSort($sort)
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setSort', [$sort]);
-
-        return parent::setSort($sort);
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function getUpdatedAt()
+    public function getUpdatedAt(): \DateTime
     {
 
         $this->__initializer__ && $this->__initializer__->__invoke($this, 'getUpdatedAt', []);
@@ -279,12 +264,34 @@ class Role extends \Schweppesale\Module\Access\Domain\Entities\Role implements \
     /**
      * {@inheritDoc}
      */
-    public function getUsers()
+    public function setName($name): \Schweppesale\Module\Access\Domain\Entities\Role
     {
 
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getUsers', []);
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setName', [$name]);
 
-        return parent::getUsers();
+        return parent::setName($name);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setPermissions(array $permissions): \Schweppesale\Module\Access\Domain\Entities\Role
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setPermissions', [$permissions]);
+
+        return parent::setPermissions($permissions);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setSort($sort): \Schweppesale\Module\Access\Domain\Entities\Role
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setSort', [$sort]);
+
+        return parent::setSort($sort);
     }
 
     /**

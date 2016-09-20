@@ -23,8 +23,7 @@
         "laravel/framework": "~5.3.0",
         "nwidart/laravel-modules": "dev-master",
         "schweppesale/module-core": "dev-master",
-        "schweppesale/module-access": "dev-master",
-        "laravelcollective/html": "^5.3"
+        "schweppesale/module-access": "dev-master"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",

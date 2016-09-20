@@ -64,10 +64,10 @@ class User extends \Schweppesale\Module\Access\Domain\Entities\User implements \
     public function __sleep()
     {
         if ($this->__isInitialized__) {
-            return ['__isInitialized__', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'confirmationCode', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'confirmed', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'createdAt', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'deletedAt', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'email', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'id', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'name', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'password', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'permissions', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'rememberToken', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'roles', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'status', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'updatedAt'];
+            return ['__isInitialized__', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'confirmationCode', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'confirmed', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'createdAt', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'deletedAt', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'email', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'id', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'name', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'password', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'permissions', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'rememberToken', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'roles', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'status', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'accessToken', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'updatedAt'];
         }
 
-        return ['__isInitialized__', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'confirmationCode', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'confirmed', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'createdAt', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'deletedAt', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'email', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'id', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'name', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'password', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'permissions', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'rememberToken', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'roles', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'status', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'updatedAt'];
+        return ['__isInitialized__', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'confirmationCode', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'confirmed', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'createdAt', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'deletedAt', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'email', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'id', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'name', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'password', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'permissions', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'rememberToken', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'roles', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'status', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'accessToken', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'updatedAt'];
     }
 
     /**
@@ -176,7 +176,62 @@ class User extends \Schweppesale\Module\Access\Domain\Entities\User implements \
     /**
      * {@inheritDoc}
      */
-    public function changePassword($password)
+    public function generateToken()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'generateToken', []);
+
+        return parent::generateToken();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function addPermission(\Schweppesale\Module\Access\Domain\Entities\Permission $permission): \Schweppesale\Module\Access\Domain\Entities\User
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'addPermission', [$permission]);
+
+        return parent::addPermission($permission);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function addRole(\Schweppesale\Module\Access\Domain\Entities\Role $role): \Schweppesale\Module\Access\Domain\Entities\User
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'addRole', [$role]);
+
+        return parent::addRole($role);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function can($permission): bool
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'can', [$permission]);
+
+        return parent::can($permission);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function canMultiple(array $permissions, $strict = true): bool
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'canMultiple', [$permissions, $strict]);
+
+        return parent::canMultiple($permissions, $strict);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function changePassword(\Schweppesale\Module\Access\Domain\Values\Password $password)
     {
 
         $this->__initializer__ && $this->__initializer__->__invoke($this, 'changePassword', [$password]);
@@ -187,7 +242,18 @@ class User extends \Schweppesale\Module\Access\Domain\Entities\User implements \
     /**
      * {@inheritDoc}
      */
-    public function getAuthIdentifierName()
+    public function confirm(): \Schweppesale\Module\Access\Domain\Entities\User
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'confirm', []);
+
+        return parent::confirm();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getAuthIdentifierName(): \Schweppesale\Module\Access\Domain\Values\EmailAddress
     {
 
         $this->__initializer__ && $this->__initializer__->__invoke($this, 'getAuthIdentifierName', []);
@@ -198,7 +264,62 @@ class User extends \Schweppesale\Module\Access\Domain\Entities\User implements \
     /**
      * {@inheritDoc}
      */
-    public function getEmail()
+    public function getRememberToken(): string
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getRememberToken', []);
+
+        return parent::getRememberToken();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setRememberToken($rememberToken): \Schweppesale\Module\Access\Domain\Entities\User
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setRememberToken', [$rememberToken]);
+
+        return parent::setRememberToken($rememberToken);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getConfirmationCode(): string
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getConfirmationCode', []);
+
+        return parent::getConfirmationCode();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getCreatedAt(): \DateTime
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getCreatedAt', []);
+
+        return parent::getCreatedAt();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getDeletedAt()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getDeletedAt', []);
+
+        return parent::getDeletedAt();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getEmail(): \Schweppesale\Module\Access\Domain\Values\EmailAddress
     {
 
         $this->__initializer__ && $this->__initializer__->__invoke($this, 'getEmail', []);
@@ -209,51 +330,7 @@ class User extends \Schweppesale\Module\Access\Domain\Entities\User implements \
     /**
      * {@inheritDoc}
      */
-    public function setEmail($email)
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setEmail', [$email]);
-
-        return parent::setEmail($email);
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function ban()
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'ban', []);
-
-        return parent::ban();
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function disable()
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'disable', []);
-
-        return parent::disable();
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function enable()
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'enable', []);
-
-        return parent::enable();
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function getEmailForPasswordReset()
+    public function getEmailForPasswordReset(): \Schweppesale\Module\Access\Domain\Values\EmailAddress
     {
 
         $this->__initializer__ && $this->__initializer__->__invoke($this, 'getEmailForPasswordReset', []);
@@ -264,12 +341,8 @@ class User extends \Schweppesale\Module\Access\Domain\Entities\User implements \
     /**
      * {@inheritDoc}
      */
-    public function getId()
+    public function getId(): int
     {
-        if ($this->__isInitialized__ === false) {
-            return (int)  parent::getId();
-        }
-
 
         $this->__initializer__ && $this->__initializer__->__invoke($this, 'getId', []);
 
@@ -279,18 +352,18 @@ class User extends \Schweppesale\Module\Access\Domain\Entities\User implements \
     /**
      * {@inheritDoc}
      */
-    public function setId($id)
+    public function getName(): string
     {
 
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setId', [$id]);
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getName', []);
 
-        return parent::setId($id);
+        return parent::getName();
     }
 
     /**
      * {@inheritDoc}
      */
-    public function getPassword()
+    public function getPassword(): \Schweppesale\Module\Access\Domain\Values\HashedPassword
     {
 
         $this->__initializer__ && $this->__initializer__->__invoke($this, 'getPassword', []);
@@ -312,34 +385,12 @@ class User extends \Schweppesale\Module\Access\Domain\Entities\User implements \
     /**
      * {@inheritDoc}
      */
-    public function setPermissions(array $permissions)
+    public function hasPermissionTo($permission): bool
     {
 
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setPermissions', [$permissions]);
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'hasPermissionTo', [$permission]);
 
-        return parent::setPermissions($permissions);
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function getRememberToken()
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getRememberToken', []);
-
-        return parent::getRememberToken();
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function setRememberToken($rememberToken)
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setRememberToken', [$rememberToken]);
-
-        return parent::setRememberToken($rememberToken);
+        return parent::hasPermissionTo($permission);
     }
 
     /**
@@ -356,18 +407,7 @@ class User extends \Schweppesale\Module\Access\Domain\Entities\User implements \
     /**
      * {@inheritDoc}
      */
-    public function setRoles(array $roles)
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setRoles', [$roles]);
-
-        return parent::setRoles($roles);
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function getStatus()
+    public function getStatus(): \Schweppesale\Module\Access\Domain\Values\User\Status
     {
 
         $this->__initializer__ && $this->__initializer__->__invoke($this, 'getStatus', []);
@@ -378,18 +418,7 @@ class User extends \Schweppesale\Module\Access\Domain\Entities\User implements \
     /**
      * {@inheritDoc}
      */
-    public function setStatus($status)
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setStatus', [$status]);
-
-        return parent::setStatus($status);
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function getUpdatedAt()
+    public function getUpdatedAt(): \DateTime
     {
 
         $this->__initializer__ && $this->__initializer__->__invoke($this, 'getUpdatedAt', []);
@@ -400,40 +429,29 @@ class User extends \Schweppesale\Module\Access\Domain\Entities\User implements \
     /**
      * {@inheritDoc}
      */
-    public function setUpdatedAt(\DateTime $updatedAt)
+    public function hasRole(string $name): bool
     {
 
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setUpdatedAt', [$updatedAt]);
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'hasRole', [$name]);
 
-        return parent::setUpdatedAt($updatedAt);
+        return parent::hasRole($name);
     }
 
     /**
      * {@inheritDoc}
      */
-    public function getConfirmationCode()
+    public function hasRoles(array $roles, $strict = true): bool
     {
 
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getConfirmationCode', []);
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'hasRoles', [$roles, $strict]);
 
-        return parent::getConfirmationCode();
+        return parent::hasRoles($roles, $strict);
     }
 
     /**
      * {@inheritDoc}
      */
-    public function setConfirmationCode($confirmationCode)
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setConfirmationCode', [$confirmationCode]);
-
-        return parent::setConfirmationCode($confirmationCode);
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function isConfirmed()
+    public function isConfirmed(): bool
     {
 
         $this->__initializer__ && $this->__initializer__->__invoke($this, 'isConfirmed', []);
@@ -444,89 +462,23 @@ class User extends \Schweppesale\Module\Access\Domain\Entities\User implements \
     /**
      * {@inheritDoc}
      */
-    public function setConfirmed($confirmed)
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setConfirmed', [$confirmed]);
-
-        return parent::setConfirmed($confirmed);
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function getCreatedAt()
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getCreatedAt', []);
-
-        return parent::getCreatedAt();
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function setCreatedAt(\DateTime $createdAt)
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setCreatedAt', [$createdAt]);
-
-        return parent::setCreatedAt($createdAt);
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function getDeletedAt()
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getDeletedAt', []);
-
-        return parent::getDeletedAt();
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function setDeletedAt(\DateTime $deletedAt)
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setDeletedAt', [$deletedAt]);
-
-        return parent::setDeletedAt($deletedAt);
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function getName()
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getName', []);
-
-        return parent::getName();
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function setName($name)
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setName', [$name]);
-
-        return parent::setName($name);
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function markAsDeleted()
+    public function markAsDeleted(): \Schweppesale\Module\Access\Domain\Entities\User
     {
 
         $this->__initializer__ && $this->__initializer__->__invoke($this, 'markAsDeleted', []);
 
         return parent::markAsDeleted();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function must($permission)
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'must', [$permission]);
+
+        return parent::must($permission);
     }
 
     /**
@@ -538,6 +490,61 @@ class User extends \Schweppesale\Module\Access\Domain\Entities\User implements \
         $this->__initializer__ && $this->__initializer__->__invoke($this, 'preUpdate', []);
 
         return parent::preUpdate();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setName($name): \Schweppesale\Module\Access\Domain\Entities\User
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setName', [$name]);
+
+        return parent::setName($name);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setPermissions(array $permissions): \Schweppesale\Module\Access\Domain\Entities\User
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setPermissions', [$permissions]);
+
+        return parent::setPermissions($permissions);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setRoles(array $roles): \Schweppesale\Module\Access\Domain\Entities\User
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'setRoles', [$roles]);
+
+        return parent::setRoles($roles);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function updateEmail(\Schweppesale\Module\Access\Domain\Values\EmailAddress $email): \Schweppesale\Module\Access\Domain\Entities\User
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'updateEmail', [$email]);
+
+        return parent::updateEmail($email);
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function updateStatus(\Schweppesale\Module\Access\Domain\Values\User\Status $status): \Schweppesale\Module\Access\Domain\Entities\User
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'updateStatus', [$status]);
+
+        return parent::updateStatus($status);
     }
 
     /**
@@ -571,61 +578,6 @@ class User extends \Schweppesale\Module\Access\Domain\Entities\User implements \
         $this->__initializer__ && $this->__initializer__->__invoke($this, 'getRememberTokenName', []);
 
         return parent::getRememberTokenName();
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function can($permission)
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'can', [$permission]);
-
-        return parent::can($permission);
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function canMultiple(array $permissions, $strict = false)
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'canMultiple', [$permissions, $strict]);
-
-        return parent::canMultiple($permissions, $strict);
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function hasRole($role)
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'hasRole', [$role]);
-
-        return parent::hasRole($role);
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function hasRoles($roles, $strict = true)
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'hasRoles', [$roles, $strict]);
-
-        return parent::hasRoles($roles, $strict);
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    public function hasPermissionTo($name, $requireAll = false)
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'hasPermissionTo', [$name, $requireAll]);
-
-        return parent::hasPermissionTo($name, $requireAll);
     }
 
 }
