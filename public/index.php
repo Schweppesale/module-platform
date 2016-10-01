@@ -19,6 +19,14 @@
 |
 */
 
+/**
+ * @todo belongs inside some middleware.
+ */
+header('Access-Control-Allow-Origin: http://localhost:3000');
+header('Access-Control-Allow-Methods: GET, POST, PATCH, PUT, DELETE, OPTIONS');
+header('Access-Control-Allow-Credentials: true');
+header('Access-Control-Allow-Headers: Authorization, Origin, Content-Type, X-Auth-Token'); // allow certain headers
+
 require __DIR__.'/../bootstrap/autoload.php';
 
 /*

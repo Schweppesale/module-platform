@@ -64,10 +64,10 @@ class User extends \Schweppesale\Module\Access\Domain\Entities\User implements \
     public function __sleep()
     {
         if ($this->__isInitialized__) {
-            return ['__isInitialized__', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'confirmationCode', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'confirmed', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'createdAt', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'deletedAt', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'email', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'id', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'name', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'password', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'permissions', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'rememberToken', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'roles', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'status', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'accessToken', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'updatedAt'];
+            return ['__isInitialized__', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'api_token', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'confirmationCode', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'confirmed', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'createdAt', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'deletedAt', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'email', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'id', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'name', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'password', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'permissions', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'rememberToken', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'roles', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'status', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'updatedAt'];
         }
 
-        return ['__isInitialized__', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'confirmationCode', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'confirmed', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'createdAt', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'deletedAt', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'email', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'id', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'name', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'password', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'permissions', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'rememberToken', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'roles', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'status', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'accessToken', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'updatedAt'];
+        return ['__isInitialized__', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'api_token', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'confirmationCode', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'confirmed', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'createdAt', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'deletedAt', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'email', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'id', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'name', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'password', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'permissions', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'rememberToken', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'roles', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'status', '' . "\0" . 'Schweppesale\\Module\\Access\\Domain\\Entities\\User' . "\0" . 'updatedAt'];
     }
 
     /**
@@ -176,17 +176,6 @@ class User extends \Schweppesale\Module\Access\Domain\Entities\User implements \
     /**
      * {@inheritDoc}
      */
-    public function generateToken()
-    {
-
-        $this->__initializer__ && $this->__initializer__->__invoke($this, 'generateToken', []);
-
-        return parent::generateToken();
-    }
-
-    /**
-     * {@inheritDoc}
-     */
     public function addPermission(\Schweppesale\Module\Access\Domain\Entities\Permission $permission): \Schweppesale\Module\Access\Domain\Entities\User
     {
 
@@ -248,6 +237,39 @@ class User extends \Schweppesale\Module\Access\Domain\Entities\User implements \
         $this->__initializer__ && $this->__initializer__->__invoke($this, 'confirm', []);
 
         return parent::confirm();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function destroyApiToken(): \Schweppesale\Module\Access\Domain\Entities\User
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'destroyApiToken', []);
+
+        return parent::destroyApiToken();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function generateApiToken(): \Schweppesale\Module\Access\Domain\Entities\User
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'generateApiToken', []);
+
+        return parent::generateApiToken();
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getApiToken()
+    {
+
+        $this->__initializer__ && $this->__initializer__->__invoke($this, 'getApiToken', []);
+
+        return parent::getApiToken();
     }
 
     /**
